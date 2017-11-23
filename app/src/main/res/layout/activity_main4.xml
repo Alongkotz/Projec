@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mali"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:weightSum="1"
+        android:background="#66222222"
+        android:padding="24dp" >
+        <TextView
+            android:layout_width="match_parent"
+            android:text="บู่ๆๆๆ ตอบผิดจ้าาาา"
+            android:gravity="center"
+            android:textSize="36dp"
+            android:textColor="#ffff"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="36dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#77777777"
+            android:text="ไปต่อจ้า"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:id="@+id/Goto"
+            android:layout_marginRight="24dp"
+            android:textColor="#ffff"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="พอๆเลิกๆ"
+            android:textSize="24dp"
+            android:id="@+id/Shit"
+            android:background="#77777777"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
