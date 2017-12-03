@@ -16,18 +16,20 @@ public class Main2Activity extends AppCompatActivity {
         Button True = (Button)findViewById(R.id.True);
         Button Fail = (Button)findViewById(R.id.Fail);
 
-        True.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent Pagetwo = new Intent(Main2Activity.this,Main3Activity.class);
-                startActivity(Pagetwo);
-            }
-        });
         Fail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Pagethree = new Intent(Main2Activity.this,Main4Activity.class);
-                startActivity(Pagethree);
+                    Intent Pagetwo = new Intent(Main2Activity.this, Correct.class);
+                    startActivity(Pagetwo);
+            }
+        });
+        True.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                    Intent Pagethree = new Intent(Main2Activity.this, Fail.class);
+                    startActivity(Pagethree);
+
             }
         });
     }

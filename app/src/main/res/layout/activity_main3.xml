@@ -5,14 +5,11 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/good"
+        android:scaleType="fitXY"
+        android:src="@drawable/harry"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
         android:id="@+id/image"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +19,7 @@
         android:padding="24dp" >
         <TextView
             android:layout_width="match_parent"
-            android:text="ตอบถูกจ้าาาา เยี่ยมไปเลยยย"
+            android:text="ใครคือนางเอกของเรื่องนี้ ?"
             android:gravity="center"
             android:textSize="36dp"
             android:textColor="#ffff"
@@ -38,10 +35,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#77777777"
-            android:text="ไปต่อจ้า"
+            android:text="ไอแว่น"
             android:textSize="24dp"
             android:gravity="center"
-            android:id="@+id/Go1"
+            android:id="@+id/Goto"
             android:layout_marginRight="24dp"
             android:textColor="#ffff"
             />
@@ -49,9 +46,9 @@
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="พอๆเลิกๆ"
+            android:text="นกฮูก"
             android:textSize="24dp"
-            android:id="@+id/end1"
+            android:id="@+id/Shit"
             android:background="#77777777"
             android:textColor="#fff"/>
 

@@ -13,14 +13,22 @@ public class Main3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        Button go1 = (Button) findViewById(R.id.Go1);
-        Button end1 = (Button)findViewById(R.id.end1);
-
+        Button go1 = (Button) findViewById(R.id.Goto);
+        Button end1 = (Button)findViewById(R.id.Shit);
+        go1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    Intent Pagethree = new Intent(Main3Activity.this, Correct.class);
+                    startActivity(Pagethree);
+            }
+        });
         end1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                    Intent Pagetwo = new Intent(Main3Activity.this, Fail.class);
+                    startActivity(Pagetwo);
             }
         });
+
     }
 }

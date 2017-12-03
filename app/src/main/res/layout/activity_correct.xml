@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/asds"
+        android:src="@drawable/hqdefault"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
         android:id="@+id/image"/>
@@ -19,7 +19,7 @@
         android:padding="24dp" >
         <TextView
             android:layout_width="match_parent"
-            android:text="ใครคือนางเอกของเรื่องนี้ ?"
+            android:text="ถูกต้องนะคร้าบบบบ"
             android:gravity="center"
             android:textSize="36dp"
             android:textColor="#ffff"
@@ -35,10 +35,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#77777777"
-            android:text="ผู้หญิงผมบรอนซ์"
+            android:text="ไปต่อ"
             android:textSize="24dp"
             android:gravity="center"
-            android:id="@+id/Goto"
+            android:id="@+id/True"
             android:layout_marginRight="24dp"
             android:textColor="#ffff"
             />
@@ -46,9 +46,9 @@
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="ไอแว่น"
+            android:text="ออก"
             android:textSize="24dp"
-            android:id="@+id/Shit"
+            android:id="@+id/Fail"
             android:background="#77777777"
             android:textColor="#fff"/>
 

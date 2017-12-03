@@ -2,24 +2,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
+    <VideoView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/asds"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentLeft="true"
-        android:id="@+id/image"/>
+        android:layout_above="@+id/linearLayout2"
+        android:id="@+id/video"
+        android:layout_below="@+id/linearLayout" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:weightSum="1"
         android:background="#66222222"
-        android:padding="24dp" >
+        android:padding="24dp"
+        android:id="@+id/linearLayout">
         <TextView
             android:layout_width="match_parent"
-            android:text="ใครคือนางเอกของเรื่องนี้ ?"
+            android:text="จากวิดิโอใครคือสุดหล่อ"
             android:gravity="center"
             android:textSize="36dp"
             android:textColor="#ffff"
@@ -29,16 +31,18 @@
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
         android:padding="36dp"
-        android:layout_height="wrap_content">
+        android:background="#999"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#77777777"
-            android:text="ผู้หญิงผมบรอนซ์"
+            android:text="ไปต่อจ้า"
             android:textSize="24dp"
             android:gravity="center"
-            android:id="@+id/Goto"
+            android:id="@+id/Go1"
             android:layout_marginRight="24dp"
             android:textColor="#ffff"
             />
@@ -46,12 +50,13 @@
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="ไอแว่น"
+            android:text="พอๆเลิกๆ"
             android:textSize="24dp"
-            android:id="@+id/Shit"
+            android:id="@+id/end1"
             android:background="#77777777"
             android:textColor="#fff"/>
 
     </LinearLayout>
+
 
 </RelativeLayout>
